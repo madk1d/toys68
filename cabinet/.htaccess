@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Cabinet"
+AuthUserFile /var/www/u0482891/data/www/toys68.ru/.htpasswd
+Require valid-user
