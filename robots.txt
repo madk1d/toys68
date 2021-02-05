@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /policy/
+Disallow: /cabinet/
+Disallow: /cart/
+Crawl-delay: 3
+Host: toys68.ru

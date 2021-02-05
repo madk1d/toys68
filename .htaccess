@@ -1,0 +1,49 @@
+ErrorDocument 401 /error/401/
+ErrorDocument 403 /error/403/
+ErrorDocument 404 /error/404/
+ErrorDocument 500 /error/500/
+RewriteEngine On
+
+RewriteRule order/([0-9]*)/$ /order/index.php?id=$1 [L]
+
+
+RewriteCond %{HTTP_HOST} ^www.toys68.ru$ [NC]
+RewriteRule ^(.*)$ http://toys68.ru/$1 [R=301,L]
+RewriteCond %{SERVER_PORT} ^443$ [OR]
+RewriteCond %{HTTPS} =on
+RewriteRule ^(.*)$ http://toys68.ru/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/index.php
+RewriteRule ^(.*)index.php$ http://%{HTTP_HOST}/$1 [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ /$1/ [L]
+
+
+RewriteCond %{REQUEST_URI} ^/index$ [OR]
+RewriteCond %{REQUEST_URI} ^/index[.]+(\w+)$
+RewriteRule . / [R=301,L] 
+
+
+
+
+<Files stock.php>
+ order allow,deny
+ deny from all
+ </Files>
+
+<Files stop.php>
+ order allow,deny
+ deny from all
+ </Files>
+
+<Files cron.php>
+ order allow,deny
+ deny from all
+ </Files>
+
+<Files .htpasswd> 
+   deny from all
+</Files>

@@ -1,0 +1,71 @@
+﻿<rss
+    xmlns:yandex="http://news.yandex.ru"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xmlns:turbo="http://turbo.yandex.ru"
+    version="2.0"
+>
+    <channel>
+       <item turbo="true">
+  <title>TOYS68</title>
+  <link>http://toys68.ru</link>
+  <turbo:content>
+    <![CDATA[
+      <header>
+        <h1>Мастерская по изготовлению мягких игрушек ручной работы</h1>
+        <h2>Эксклюзивные и оригинальные подарки</h2>
+        <figure>
+          <img src="http://toys68.ru/images/bunny/07.jpg">
+        </figure>
+        <menu>
+          <a href="http://toys68.ru/toys/">Выбрать игрушки</a>
+		  <a href="http://toys68.ru/stock/">Акции</a>
+          <a href="http://toys68.ru/about/">О нас</a>
+		  <a href="http://toys68.ru/buy/">Оплата и доставка</a>
+        </menu>
+      </header>
+      <p>Игрушки подходят взрослым и детям, а так же как предметы интерьера. С каждым заказчиком мы обговариваем все детали: цвет пряжи, имя на игрушке, 
+	  аксессуары и т.д. 
+	  Наши игрушки изготавливаются из мягкой плюшевой пряжи высокого качества, специального наполнителя для игрушек, качественных отделочных 
+	  материалов полностью вручную и с большой любовью. 
+	  Не знаете, что подарить? Поможем вам с выбором и подберем лучший вариант. Возможно изготовление игрушек и подарков по дизайну заказчика.
+	  </p>      
+      <h2>Примеры работ</h2>
+      <figure>
+        <img src="http://toys68.ru/images/bear/01.jpg">
+        <figcaption>Мишка в маечке</figcaption>
+      </figure>
+      <figure>
+        <img src="http://toys68.ru/images/pig/01.jpg">
+        <figcaption>Свинка</figcaption>
+      </figure>
+      <figure>
+        <img src="http://toys68.ru/images/giraffe/01.jpg">
+        <figcaption>Жираф</figcaption>
+      </figure>
+      <figure>
+        <img src="http://toys68.ru/images/bear/04.jpg">
+        <figcaption>Мишка Лова-Лова</figcaption>
+      </figure>
+      <figure>
+        <img src="http://toys68.ru/images/bunny/02.jpg">
+        <figcaption>Зайка</figcaption>
+      </figure>
+	  <figure>
+        <img src="http://toys68.ru/images/cat/03.jpg">
+        <figcaption>Hello Kitty</figcaption>
+      </figure>
+			  <form
+                    data-type="callback"
+                    data-send-to="torya@toys68.ru">
+                   </form>
+      <div data-block="widget-feedback" data-stick="false">
+        <div data-block="chat" data-type="whatsapp" data-url="whatsapp://send?phone=+79204814564"></div>   
+        <div data-block="chat" data-type="vkontakte" data-url="https://vk.com/id501603033"></div>
+		<div data-type="call" data-url="+7 920 481-45-64"></div>        
+      </div>
+      
+    ]]>
+    </turbo:content>
+</item>
+    </channel>
+</rss>
